@@ -1,0 +1,44 @@
+# * *************************************************************
+# *  
+# *   Soft Active Mater on Surfaces (SAMoS)
+# *   
+# *   Author: Rastko Sknepnek
+# *  
+# *   Division of Physics
+# *   School of Engineering, Physics and Mathematics
+# *   University of Dundee
+# *   
+# *   (c) 2013, 2014
+# * 
+# *   School of Science and Engineering
+# *   School of Life Sciences 
+# *   University of Dundee
+# * 
+# *   (c) 2015
+# * 
+# *   Author: Silke Henkes
+# * 
+# *   Department of Physics 
+# *   Institute for Complex Systems and Mathematical Biology
+# *   University of Aberdeen  
+# * 
+# *   (c) 2014, 2015
+# *  
+# *   Author: Silke Henkes
+# *   Lorentz Institute
+# *   Leiden University
+# *  
+# *  (c) 2024
+# *  
+# *   This program cannot be used, copied, or modified without
+# *   explicit written permission of the authors.
+# * 
+# * ************************************************************** 
+
+#find_package(Eigen3 REQUIRED)
+
+#include_directories(${Eigen3_INCLUDE_DIRS})
+
+#MESSAGE("Searching for EIGEN lib")
+
+

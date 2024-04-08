@@ -70,6 +70,7 @@ public:
                   | qi::as_string[keyword["brownian_rod"]][phx::bind(&IntegratorData::type, phx::ref(integrator_data)) = qi::_1 ]   /*! Handles stochastic integrator for rods */
                   | qi::as_string[keyword["brownian_pos"]][phx::bind(&IntegratorData::type, phx::ref(integrator_data)) = qi::_1 ]   /*! Handles stochastic integrator for particle position */
                   | qi::as_string[keyword["brownian_align"]][phx::bind(&IntegratorData::type, phx::ref(integrator_data)) = qi::_1 ] /*! Handles stochastic integrator for particle alignment */
+                  | qi::as_string[keyword["pairdiss_pos"]][phx::bind(&IntegratorData::type, phx::ref(integrator_data)) = qi::_1 ]   /*! Handles integrator for pair dissipation for particle positions */
                   | qi::as_string[keyword["langevin"]][phx::bind(&IntegratorData::type, phx::ref(integrator_data)) = qi::_1 ]       /*! Handles Langevin stochastic integrator */
                   | qi::as_string[keyword["fire"]][phx::bind(&IntegratorData::type, phx::ref(integrator_data)) = qi::_1 ]           /*! Handles FIRE minimisation integrator */
                   | qi::as_string[keyword["sepulveda"]][phx::bind(&IntegratorData::type, phx::ref(integrator_data)) = qi::_1 ]      /*! Handles Sepulveda integrator */

@@ -111,6 +111,7 @@
 #include "integrator_actomyo.hpp"
 #include "integrator_brownian_pos.hpp"
 #include "integrator_brownian_align.hpp"
+#include "integrator_pairdiss_pos.hpp"
 #include "integrator_langevin.hpp"
 #include "integrator_fire.hpp"
 #include "integrator_sepulveda.hpp"

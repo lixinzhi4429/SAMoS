@@ -47,6 +47,8 @@ void register_integrators(IntegratorMap& integrators)
   integrators["brownian_pos"] = factory<IntegratorBrownianPosPtr>();
   // Register Brownian dynamics integrator for alignment with the integrators class factory
   integrators["brownian_align"] = factory<IntegratorBrownianAlignPtr>();
+  // Register Pair dissipation dynamics integrator for particle positions with the integrators class factory
+  integrators["pairdiss_pos"] = factory<IntegratorPairdissPosPtr>();
   // Register Langevin dynamics integrator for particle positions with the integrators class factory
   integrators["langevin"] = factory<IntegratorLangevinPtr>();
   // Register FIRE minimisaton integrator with the integrators class factory

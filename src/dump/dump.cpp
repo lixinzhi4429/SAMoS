@@ -641,7 +641,7 @@ void Dump::dump_data()
       if (m_params.find("omega") != m_params.end())
         m_out << format("%8.5f ") % p.omega;
       if (m_params.find("age") != m_params.end())
-        m_out << format("%8.5f ") % p.age;
+        m_out << format("%12.3f ") % p.age;
       if (m_params.find("image_flags") != m_params.end())
         m_out << format(" %3d  %3d  %3d ") % p.ix % p.iy % p.iz;
       if (m_params.find("normal") != m_params.end())
