@@ -104,6 +104,7 @@ public:
   
   //! Get the default native area
   double get_A0() { return m_A0; } 
+
   
   //! Set id (for particle relabelling purposes)
   //! \param id new id

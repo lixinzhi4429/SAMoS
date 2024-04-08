@@ -68,6 +68,7 @@ void IntegratorBrownianAlign::integrate()
     Particle& p = m_system->get_particle(pi);
     // Update angular velocity
     p.omega = m_mur*m_constrainer->project_torque(p);
+    //std::cout << p.omega << endl;
     // Change orientation of the director (in the tangent plane) according to eq. (1b)
     double dtheta = m_dt*p.omega + m_stoch_coeff*m_rng->gauss_rng(1.0);
     //double dtheta = m_dt*m_constraint->project_torque(p) + m_stoch_coeff*m_rng->gauss_rng(1.0);
